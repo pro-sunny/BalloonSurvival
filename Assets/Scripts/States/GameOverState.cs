@@ -8,7 +8,7 @@ public class GameOverState : IState
     {
         _scoreWindowActivator = scoreWindowActivator;
     }
-    public async void Enter()
+    public void Enter()
     {
         _scoreWindowActivator.Activate(1);
     }
